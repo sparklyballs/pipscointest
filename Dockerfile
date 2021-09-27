@@ -13,6 +13,7 @@ ENV \
 	full_node_port="null" \
 	harvester="false" \
 	keys="generate" \
+	log_level="INFO" \
 	plots_dir="/plots" \
 	testnet="false" \
 	TZ="UTC"
