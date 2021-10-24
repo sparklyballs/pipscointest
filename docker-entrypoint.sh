@@ -11,8 +11,7 @@ cd /pipscoin-blockchain || exit 1
 # shellcheck disable=SC1091
 . ./activate
 
-pipscoin init
-# pipscoin init --fix-ssl-permissions
+pipscoin init --fix-ssl-permissions
 
 if [[ ${testnet} == 'true' ]]; then
    echo "configure testnet"
